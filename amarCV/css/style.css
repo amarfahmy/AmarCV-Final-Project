@@ -1,0 +1,408 @@
+/* Colours
+
+#411838 -- purple
+#53565f -- grey
+#5ca18e -- teal
+#bdc2a2 -- beige
+#ccc    -- light grey
+#a1304e -- red
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	font-family: 'Montserat', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.container{
+	width: 100%;
+	max-width: 960px;
+	min-width: 900px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.header{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid grey;
+}
+
+.name{
+	float: left;
+	display: block;
+	width: 40%;
+	font-size: 1.5em;	
+}
+
+.header-icons{
+	float: left;
+	display: block;
+	width: 10%;
+	margin-top: 1em;
+}
+
+.contact-details{
+	float: left;
+	display: block;
+	width: 20%;
+	vertical-align: middle;
+	margin-top: 1em;
+}
+
+.section-title{
+	clear: both;
+	padding-top: 10px;
+	border-top: 3px solid grey;
+}
+
+.introduction-container{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 5px;
+
+}
+
+.introduction-copy{
+	float: left;
+	width: 55%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 20px;
+}
+
+.qualification-icons{
+	float: left;
+	width: 10%;
+	padding-bottom: 5px;
+	margin-right: 10px;
+}
+
+.icon{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 3px solid grey;
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.icon p{
+	padding: 2px;
+	font-size: 20px;
+}
+
+.icon-text{
+	float: left;
+	width: 30%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.icon-text h3{
+	font-size: 25px;
+	padding: 5px;
+	border-left: 1px solid grey;
+}
+
+.icon-text p{
+	margin-bottom: 15px;
+	border-left: 1px solid grey;
+}
+
+
+
+.icon:hover{
+	background-color: lightgrey;
+}
+
+
+.timeline{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding-top: 10em;
+	padding-bottom: 20px;
+	padding-left: auto;
+	padding-right: auto;
+	position: relative;
+}
+/* change height/width to responsive ie em / % */
+
+.institutions {
+	position: absolute;
+	top: 10px;
+}
+
+.institutions:before {
+	content: '';
+	height: 1px;
+	width: 10px;
+	left: -15px;
+	top: 6px;
+	background-color: black;
+	position: absolute;
+}
+
+.institutions:after {
+	content: '';
+	width: 1px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	left: -15px;
+	top: 6px;
+}
+
+.institutions h4{
+	font-size: 12px
+}
+
+.institutions p{
+	font-size: 10px;
+}
+
+.institutions.reading{
+	left: 15px;
+}
+
+.institutions.col{
+	left: 155px;
+}
+
+.institutions.pinsentmasons{
+	left: 300px;
+}
+
+.institutions.friendslife{
+	left: 550px;
+}
+
+.institutions.aviva{
+	
+	right: 30px;
+}
+
+.ball-container {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.ball{
+	list-style: none;
+  	float: left;
+	background: black;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	margin-left: 0px;
+	margin-right: 3.5px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.ball:hover{
+	background: red;
+}
+
+.year-container{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.year{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	width: 41px;
+	margin-right: 40px;
+	border-left: solid 1px grey;
+	padding: 0;
+}
+
+.year:first-child{
+	margin-left: 27px;
+}
+
+.section-title{
+	margin-bottom: 15px;
+}
+
+.experience-container{
+	width: 100%;
+}
+
+.experience-column{
+	display: block;
+	float: left;
+	width: 33.33%;
+	padding: 10px 5px 10px 5px;
+}
+
+.experience-column h3{
+	margin-bottom: 10px;
+}
+
+.half-section-container{
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.half-section-column{
+	display: block;
+	float: left;
+	width: 50%;
+	border-top: 3px solid grey;
+	margin-bottom: 10px;
+}
+
+.half-section-column.references{
+	padding-left: 2.5em;
+}
+
+.half-section-column.interests{
+	padding-left: 2.5em;
+}
+
+.seat-container{
+	overflow: hidden;
+	width: 100%;
+}
+
+.seat{
+	list-style: none;
+  	float: left;
+	background: lightgrey;
+	height: 20px;
+	width: 24%;
+	border: 1px solid white;
+}
+
+.seat:nth-child(2n){
+	background-color: red;
+}
+
+.seat-title{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 24%;
+	border: 1px solid white;
+	font-size: 0.75em;
+
+}
+
+h2{
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+
+.reference{
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.seat-container{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+.half-section-column.education{
+	width: 50%;
+}
+.education-icons{
+	display: block;
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-left: 1em;
+}
+
+.education{
+	display: block;
+	float: left;
+	list-style: none;
+	width: 65%;
+}
+
+.education h4{
+	font-size: 1em;
+}
+
+.education p{
+	font-size: 0.75em;
+}
+
+.half-section-column.interests{
+	width: 50%;
+}
+
+.interests-icons{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 20%;
+}
+
+.interests{
+	list-style: none;
+	display: block;
+	float: left;
+	width: 30%;
+}
+
+.footer{
+	display: inline-block;
+	float: right;
+	clear: both;
+}
+
+blockquote {
+	font-size: 24px;
+	background:#ccc;
+	width: 450px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding:40px;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #a1304e;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
